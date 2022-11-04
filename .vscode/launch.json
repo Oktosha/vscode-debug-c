@@ -1,0 +1,13 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "My simple debug", // can be any name, appears in the debug dropdown
+			"request": "launch",
+			"type": "cppdbg",
+			"program": "${workspaceRoot}/a.out",
+			"cwd": "${workspaceFolder}",
+			"miDebuggerPath": "/Users/dkolodze/.vscode/extensions/ms-vscode.cpptools-1.12.4-darwin-x64/debugAdapters/lldb-mi/bin/lldb-mi"
+		},
+	]
+}
